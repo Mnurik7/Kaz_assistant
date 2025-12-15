@@ -5,10 +5,17 @@ __pycache__/
 *.so
 .Python
 
-# Audio/Video files
+# Audio files
 *.mp3
 *.wav
-*.mp4
+
+# Video files (except demo videos)
+# *.mp4  # Commented to allow demo videos in repo
+
+# Sensitive files
+authorized_key.json
+*.key
+*.pem
 
 # Environment
 .env
@@ -29,4 +36,5 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.log
+
 

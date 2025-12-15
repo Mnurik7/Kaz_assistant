@@ -1,0 +1,21 @@
+# Core dependencies
+python-dotenv>=1.0.0
+google-generativeai>=0.3.0
+
+# Audio processing
+sounddevice>=0.4.6
+numpy>=1.24.0
+vosk>=0.3.45
+
+# Image processing
+Pillow>=10.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# GUI (usually included with Python, but listed for completeness)
+# tkinter - comes with Python standard library
+
+# Optional dependencies
+# vosk-model-kz-0.15 - download separately from https://alphacephei.com/vosk/models
+
